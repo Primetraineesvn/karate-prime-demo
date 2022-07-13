@@ -1,0 +1,24 @@
+<testsuite failures="0" name="src/test/resources/features/login.feature" skipped="0" tests="3" time="0.038642">
+  <testcase classname="src.test.resources.features.login" name="Hello world scenario" time="0.007917">
+    <system-out>* print 'hello world' ..................................................... passed
+* print 'hello Prime Automation' .......................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.resources.features.login" name="declare and print variables" time="0.021844">
+    <system-out>* print 'hello world' ..................................................... passed
+* print 'hello Prime Automation' .......................................... passed
+* def balance = 200 ....................................................... passed
+* def fee = 20 ............................................................ passed
+* print 'Total amount -&gt;' + (balance + fee + tax) ......................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.resources.features.login" name="calculator scenario" time="0.00888">
+    <system-out>* print 'hello world' ..................................................... passed
+* print 'hello Prime Automation' .......................................... passed
+* def balance = 200 ....................................................... passed
+* def fee = 20 ............................................................ passed
+* print 'Total amount -&gt;' + (balance + fee + tax) ......................... passed
+* def a = 200 ............................................................. passed
+* def b = 20 .............................................................. passed
+* def mul = 10 ............................................................ passed
+* print 'mul -&gt;' + (a*b) .................................................. passed</system-out>
+  </testcase>
+</testsuite>
